@@ -3,7 +3,7 @@
   "name": "Eco Design System",
   "homepage": "https://eco-design-system.vercel.app/",
   "baseUrl": "https://eco-design-system.vercel.app/",
-  "registryUrl": "https://eco-design-system.vercel.app/registry",
+  "registryUrl": "https://eco-design-system.vercel.app/",
   "items": [
     {
       "name": "registry",
