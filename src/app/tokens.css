@@ -42,7 +42,19 @@
   --sidebar-border: oklch(0.88 0.02 74.64);
   --sidebar-ring: oklch(0.52 0.13 144.17);
 
-  --radius: 0.5rem;
+  --radius: 0.375rem;
+
+  /* Font sizes */
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-base: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 20px;
+  --text-3xl: 24px;
+  --text-4xl: 28px;
+  --text-5xl: 32px;
 
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);

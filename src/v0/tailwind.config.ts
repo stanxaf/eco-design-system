@@ -72,6 +72,18 @@ const config: Config = {
         xl: "var(--shadow-xl)",
         "2xl": "var(--shadow-2xl)",
       },
+      fontSize: {
+        xs: "var(--text-xs)",
+        sm: "var(--text-sm)",
+        base: "var(--text-base)",
+        md: "var(--text-md)",
+        lg: "var(--text-lg)",
+        xl: "var(--text-xl)",
+        "2xl": "var(--text-2xl)",
+        "3xl": "var(--text-3xl)",
+        "4xl": "var(--text-4xl)",
+        "5xl": "var(--text-5xl)",
+      },
       fontFamily: {
         serif: ["var(--font-serif)", "sans-serif"],
         sans: ["var(--font-sans)", "sans-serif"],
