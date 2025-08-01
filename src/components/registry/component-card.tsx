@@ -48,7 +48,7 @@ export function ComponentCard({
 
   return (
     <section>
-      <Card id="starting-kit" className="border-foreground/25">
+      <Card id="starting-kit">
         <CardHeader>
           <div className="flex flex-col gap-4">
             <CardTitle className="font-medium text-lg">Preview</CardTitle>
@@ -92,7 +92,7 @@ export function ComponentCard({
         <CardContent className="flex flex-col items-center justify-center gap-4 rounded-md px-6">
           <div
             className={
-              "h-[800px] w-full overflow-hidden rounded-md border border-border p-4"
+              "h-[800px] w-full overflow-hidden"
             }
           >
             <iframe

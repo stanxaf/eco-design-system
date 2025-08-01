@@ -153,7 +153,7 @@ export function BrandSidebar({
           </SidebarGroupContent>
         </SidebarGroup>
 
-        <SidebarSeparator />
+        <SidebarSeparator className="bg-sidebar-border" />
 
         {/* Tools Nav Items */}
         <SidebarGroup>
