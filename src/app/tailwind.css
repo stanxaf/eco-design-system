@@ -78,4 +78,13 @@
   ::file-selector-button {
     border-color: var(--color-border, currentColor);
   }
+
+  html {
+    font-size: 16px; /* Base font size for rem calculations */
+  }
+
+  body {
+    font-size: var(--text-base); /* 13px */
+    line-height: 1.5;
+  }
 }
