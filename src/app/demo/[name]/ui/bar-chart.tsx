@@ -1,5 +1,6 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
 
 import {
@@ -42,7 +43,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function BarChartComponent() {
+const BarChartComponentInner = () => {
   return (
     <Card>
       <CardHeader>
@@ -51,21 +52,23 @@ export function BarChartComponent() {
       </CardHeader>
 
       <CardContent>
-        <ChartContainer config={chartConfig}>
-          <BarChart accessibilityLayer data={chartData}>
+        <div className="h-[300px] w-full">
+          <BarChart width={400} height={250} data={chartData}>
             <CartesianGrid vertical={false} />
             <XAxis
               dataKey="month"
               tickMargin={10}
               tickFormatter={(value) => value.slice(0, 3)}
             />
-            <ChartTooltip content={<ChartTooltipContent />} />
-            <ChartLegend content={<ChartLegendContent />} />
             <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
             <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
           </BarChart>
-        </ChartContainer>
+        </div>
       </CardContent>
     </Card>
   );
-}
+};
+
+export const BarChartComponent = dynamic(() => Promise.resolve(BarChartComponentInner), {
+  ssr: false,
+});

@@ -1,5 +1,6 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import * as React from "react";
 import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
 
@@ -133,7 +134,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function AreaChartComponent() {
+const AreaChartComponentInner = () => {
   const [timeRange, setTimeRange] = React.useState("90d");
 
   const filteredData = chartData.filter((item) => {
@@ -182,7 +183,7 @@ export function AreaChartComponent() {
       <CardContent className="px-2 pt-4 sm:px-6 sm:pt-6">
         <ChartContainer
           config={chartConfig}
-          className="aspect-auto h-[250px] w-full"
+          className="h-[300px] w-full"
         >
           <AreaChart data={filteredData}>
             <defs>
@@ -260,4 +261,8 @@ export function AreaChartComponent() {
       </CardContent>
     </Card>
   );
-}
+};
+
+export const AreaChartComponent = dynamic(() => Promise.resolve(AreaChartComponentInner), {
+  ssr: false,
+});
