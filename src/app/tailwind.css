@@ -54,6 +54,11 @@
 
   --radius: var(--radius);
 
+  /* Height Tokens */
+  --height-xs: var(--height-xs);
+  --height-sm: var(--height-sm);
+  --height-md: var(--height-md);
+
   /* Button Primary Tokens */
   --button-primary-bg-base-light: var(--blue-500);
   --button-primary-bg-base-dark: var(--utility-blue);
