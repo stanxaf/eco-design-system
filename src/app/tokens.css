@@ -120,6 +120,15 @@
   --bg-fields-dark: var(--bg-component-light);
   --bg-fields-error: var(--red-50);
 
+  --button-primary-bg-base-light: var(--blue-500);
+  --button-primary-bg-base-dark: var(--utility-blue);
+  --button-primary-bg-hover-light: var(--blue-500);
+  --button-primary-bg-hover-dark: var(--blue-600);
+  --button-primary-bg-active: var(--blue-800);
+  --button-primary-bg-disabled: var(--blue-200);
+  --button-primary-text-base: var(--neutral-white);
+  --button-primary-text-disabled: var(--bg-component-default);
+
   /* Status & Field Tokens */
   --status-success: var(--green-800);
   --status-error: var(--red-600);
@@ -154,7 +163,7 @@
   /* Sidebar Tokens */
   --sidebar-text: var(--neutral-white);
   --sidebar-bg: var(--slate-800);
-  /* --sidebar-border: var(--slate-800); */
+  --sidebar-border: var(--slate-800);
   --sidebar-separator: var(--slate-700);
 
 
