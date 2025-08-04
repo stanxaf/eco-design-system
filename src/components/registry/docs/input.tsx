@@ -61,9 +61,9 @@ export const inputDocs = {
       {
         title: "Sizes",
         components: [
-          <Input key="sm" size={"sm" as const} placeholder="Small input" />,
+          <Input key="sm" placeholder="Small input" className="h-xs px-2 py-1 text-xs" />,
           <Input key="default" placeholder="Default input" />,
-          <Input key="lg" size={"lg" as const} placeholder="Large input" />,
+          <Input key="lg" placeholder="Large input" className="h-md px-3 py-2 text-base" />,
         ]
       },
       {
@@ -105,7 +105,6 @@ export const inputDocs = {
   api: {
     props: `interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   className?: string
-  size?: 'sm' | 'default' | 'lg'
 }`,
     variants: [
       { name: "text", description: "Default text input" },
@@ -125,9 +124,9 @@ export const inputDocs = {
       { name: "range", description: "Range slider input" },
     ],
     sizes: [
-      { name: "default", description: "Standard input height (36px)" },
-      { name: "sm", description: "Smaller input height (32px)" },
-      { name: "lg", description: "Larger input height (44px)" },
+      { name: "default", description: "Standard input height (32px)" },
+      { name: "small", description: "Smaller input height (24px) - use h-xs class" },
+      { name: "large", description: "Larger input height (40px) - use h-md class" },
     ]
   },
 
