@@ -216,6 +216,11 @@
   --text-4xl: 28px;
   --text-5xl: 32px;
 
+  /* Height Tokens */
+  --height-xs: 24px;   /* 24px - for compact inputs, small buttons */
+  --height-sm: 32px;   /* 32px - for default inputs, buttons */
+  --height-md: 40px;   /* 40px - for large inputs, buttons */
+
   --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
   --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px
