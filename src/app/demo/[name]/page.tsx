@@ -27,13 +27,15 @@ export default async function DemoPage({
   const { components } = demos[name];
 
   return (
-    <div className="flex h-[100vh] w-full flex-col gap-4 bg-card">
-      {components &&
-        Object.entries(components).map(([key, node]) => (
-          <div className="relative w-full" key={key}>
-            <Renderer>{node}</Renderer>
-          </div>
-        ))}
+    <div className="flex h-[100vh] w-full items-center justify-center bg-card">
+      {components && (
+        <div className="relative w-full h-full p-2 flex items-center justify-center">
+          <Renderer>
+            {/* Show Demo component if it exists, otherwise show the first available component */}
+            {components.Demo || Object.values(components)[0]}
+          </Renderer>
+        </div>
+      )}
     </div>
   );
 }
