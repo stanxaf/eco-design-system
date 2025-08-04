@@ -179,9 +179,9 @@ const config: Config = {
         "fade-in-scale": "fade-in-scale 0.3s ease-out",
       },
       height: {
-        'xs': 'var(--height-xs)',
-        'sm': 'var(--height-sm)',
-        'md': 'var(--height-md)',
+        xs: 'var(--height-xs)',
+        sm: 'var(--height-sm)',
+        md: 'var(--height-md)',
       },
     },
   },

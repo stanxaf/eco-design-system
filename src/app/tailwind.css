@@ -57,6 +57,25 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
+  --radius: 0.375rem;
+
+  /* Font sizes */
+  --text-xs: 11px;
+  --text-sm: 12px;
+  --text-base: 13px;
+  --text-md: 14px;
+  --text-lg: 16px;
+  --text-xl: 18px;
+  --text-2xl: 20px;
+  --text-3xl: 24px;
+  --text-4xl: 28px;
+  --text-5xl: 32px;
+
+  /* Height Tokens */
+  --height-xs: 24px;   /* 24px - for compact inputs, small buttons */
+  --height-sm: 32px;   /* 32px - for default inputs, buttons */
+  --height-md: 40px;   /* 40px - for large inputs, buttons */
+
   --shadow-2xs: var(--shadow-2xs);
   --shadow-xs: var(--shadow-xs);
   --shadow-sm: var(--shadow-sm);
