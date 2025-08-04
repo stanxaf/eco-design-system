@@ -76,6 +76,16 @@
   --height-sm: 32px;   /* 32px - for default inputs, buttons */
   --height-md: 40px;   /* 40px - for large inputs, buttons */
 
+  /* Button Primary Tokens */
+  --button-primary-bg-base-light: var(--blue-500);
+  --button-primary-bg-base-dark: var(--utility-blue);
+  --button-primary-bg-hover-light: var(--blue-500);
+  --button-primary-bg-hover-dark: var(--blue-600);
+  --button-primary-bg-active: var(--blue-800);
+  --button-primary-bg-disabled: var(--blue-800);
+  --button-primary-text-base: var(--neutral-white);
+  --button-primary-text-disabled: var(--utility-white-30);
+
   --shadow-2xs: var(--shadow-2xs);
   --shadow-xs: var(--shadow-xs);
   --shadow-sm: var(--shadow-sm);

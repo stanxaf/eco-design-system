@@ -302,6 +302,15 @@
   --bg-fields-dark: var(--bg-component-light);
   --bg-fields-error: var(--red-950);
 
+  --button-primary-bg-base-light: var(--blue-500);
+  --button-primary-bg-base-dark: var(--utility-blue);
+  --button-primary-bg-hover-light: var(--blue-500);
+  --button-primary-bg-hover-dark: var(--blue-600);
+  --button-primary-bg-active: var(--blue-800);
+  --button-primary-bg-disabled: var(--blue-800);
+  --button-primary-text-base: var(--neutral-white);
+  --button-primary-text-disabled: var(--utility-white-30);
+
   /* Border Tokens */
   --border-field: var(--slate-600);
   --border-light: var(--gray-800);
