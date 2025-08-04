@@ -208,7 +208,7 @@ export function FinanceDataTable() {
         />
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="ml-auto">
+            <Button variant="outline" className="ml-2">
               Columns <ChevronDown />
             </Button>
           </DropdownMenuTrigger>

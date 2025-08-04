@@ -1,9 +1,12 @@
 import { buttonDocs } from './button';
+import { inputDocs } from './input';
 
 export function getComponentDocs(componentName: string) {
   switch (componentName) {
     case 'button':
       return buttonDocs;
+    case 'input':
+      return inputDocs;
     default:
       // Return a default structure for unknown components
       return {
