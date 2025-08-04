@@ -116,7 +116,7 @@
   }
 
   body {
-    font-size: var(--text-base); /* 13px */
+    font-size: var(--text-base);
     line-height: 1.5;
   }
 }
