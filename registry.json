@@ -497,6 +497,22 @@
 
 
     {
+      "name": "data-table",
+      "type": "registry:ui",
+      "title": "Data Table",
+      "description": "Powerful table and datagrids built using TanStack Table.",
+      "registryDependencies": [
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/table.tsx",
+          "type": "registry:file",
+          "target": "components/ui/table.tsx"
+        }
+      ]
+    },
+    {
       "name": "dialog",
       "type": "registry:ui",
       "title": "Dialog",
@@ -544,6 +560,22 @@
           "path": "src/components/ui/input.tsx",
           "type": "registry:file",
           "target": "components/ui/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "title": "Menu Bar",
+      "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
+      "registryDependencies": [
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/menubar.tsx",
+          "type": "registry:file",
+          "target": "components/ui/menubar.tsx"
         }
       ]
     },

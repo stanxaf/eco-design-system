@@ -26,7 +26,6 @@ import { card } from "@/app/demo/[name]/ui/card";
 import { chart } from "@/app/demo/[name]/ui/chart";
 import { checkbox } from "@/app/demo/[name]/ui/checkbox";
 import { dataTable } from "@/app/demo/[name]/ui/data-table";
-import { datePicker } from "@/app/demo/[name]/ui/date-picker";
 import { dialog } from "@/app/demo/[name]/ui/dialog";
 import { dropdownMenu } from "@/app/demo/[name]/ui/dropdown-menu";
 import { input } from "@/app/demo/[name]/ui/input";
@@ -76,11 +75,10 @@ export const demos: { [name: string]: Demo } = {
   chart,
   checkbox,
   dialog,
-  "date-picker": datePicker,
   "data-table": dataTable,
   "dropdown-menu": dropdownMenu,
   input,
-  "menu-bar": menuBar,
+  "menubar": menuBar,
   select,
   separator,
   skeleton,
