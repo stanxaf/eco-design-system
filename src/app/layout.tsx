@@ -5,6 +5,7 @@ import { Inter, JetBrains_Mono, Montserrat } from "next/font/google";
 import type { ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "@/components/theme-provider";
 
 import "@/app/tokens.css";
 import "@/app/tailwind.css";
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={cn(
         InterSans.variable,
         JetBrainsMono.variable,
@@ -50,7 +52,14 @@ export default function RootLayout({
         content="noindex, nofollow, noarchive, nosnippet, noimageindex"
       />
       <body className="flex grow">
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
         <Analytics />
         <SpeedInsights />
       </body>
