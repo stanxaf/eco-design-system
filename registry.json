@@ -494,40 +494,8 @@
         }
       ]
     },
-    {
-      "name": "data-table",
-      "type": "registry:ui",
-      "title": "Data Table",
-      "description": "Powerful table and datagrids built using TanStack Table.",
-      "registryDependencies": [
-        "data-table",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/data-table.tsx",
-          "type": "registry:file",
-          "target": "components/ui/data-table.tsx"
-        }
-      ]
-    },
-    {
-      "name": "date-picker",
-      "type": "registry:ui",
-      "title": "Date Picker",
-      "description": "Displays the path to the current resource using a hierarchy of links.",
-      "registryDependencies": [
-        "date-picker",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/date-picker.tsx",
-          "type": "registry:file",
-          "target": "components/ui/date-picker.tsx"
-        }
-      ]
-    },
+
+
     {
       "name": "dialog",
       "type": "registry:ui",
@@ -579,22 +547,7 @@
         }
       ]
     },
-    {
-      "name": "menu-bar",
-      "type": "registry:ui",
-      "title": "Menu Bar",
-      "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
-      "registryDependencies": [
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/menubar.tsx",
-          "type": "registry:file",
-          "target": "components/ui/menubar.tsx"
-        }
-      ]
-    },
+
     {
       "name": "select",
       "type": "registry:ui",
