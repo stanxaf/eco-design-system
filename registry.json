@@ -335,9 +335,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/accordion.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/accordion.tsx"
         }
       ]
     },
@@ -352,9 +352,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/alert.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/alert.tsx"
         }
       ]
     },
@@ -369,9 +369,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/avatar.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/avatar.tsx"
         }
       ]
     },
@@ -386,9 +386,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/badge.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/badge.tsx"
         }
       ]
     },
@@ -403,9 +403,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/breadcrumb.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/breadcrumb.tsx"
         }
       ]
     },
@@ -420,9 +420,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/button.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/button.tsx"
         }
       ]
     },
@@ -437,9 +437,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/calendar.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/calendar.tsx"
         }
       ]
     },
@@ -454,9 +454,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/card.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/card.tsx"
         }
       ]
     },
@@ -471,9 +471,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/chart.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/chart.tsx"
         }
       ]
     },
@@ -488,9 +488,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/checkbox.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/checkbox.tsx"
         }
       ]
     },
@@ -505,9 +505,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/data-table.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/data-table.tsx"
         }
       ]
     },
@@ -522,9 +522,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/date-picker.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/date-picker.tsx"
         }
       ]
     },
@@ -539,9 +539,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/dialog.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/dialog.tsx"
         }
       ]
     },
@@ -556,9 +556,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/dropdown-menu.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/dropdown-menu.tsx"
         }
       ]
     },
@@ -573,9 +573,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/input.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/input.tsx"
         }
       ]
     },
@@ -589,9 +589,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/menubar.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/menubar.tsx"
         }
       ]
     },
@@ -606,9 +606,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/select.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/select.tsx"
         }
       ]
     },
@@ -623,9 +623,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/separator.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/separator.tsx"
         }
       ]
     },
@@ -640,9 +640,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/skeleton.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/skeleton.tsx"
         }
       ]
     },
@@ -657,9 +657,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/slider.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/slider.tsx"
         }
       ]
     },
@@ -673,11 +673,6 @@
         "https://eco-design-system.vercel.app/r/theme.json"
       ],
       "files": [
-        {
-          "path": "src/v0/minimal-layout.tsx",
-          "type": "registry:file",
-          "target": "app/layout.tsx"
-        },
         {
           "path": "src/components/ui/sonner.tsx",
           "type": "registry:file",
@@ -696,9 +691,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/switch.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/switch.tsx"
         }
       ]
     },
@@ -713,9 +708,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/table.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/table.tsx"
         }
       ]
     },
@@ -730,9 +725,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/tabs.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/tabs.tsx"
         }
       ]
     },
@@ -747,9 +742,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/toggle-group.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/toggle-group.tsx"
         }
       ]
     },
@@ -764,9 +759,9 @@
       ],
       "files": [
         {
-          "path": "src/v0/minimal-layout.tsx",
+          "path": "src/components/ui/tooltip.tsx",
           "type": "registry:file",
-          "target": "app/layout.tsx"
+          "target": "components/ui/tooltip.tsx"
         }
       ]
     }
