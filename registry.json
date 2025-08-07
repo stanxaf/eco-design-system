@@ -359,6 +359,40 @@
       ]
     },
     {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "title": "Alert Dialog",
+      "description": "A modal dialog that interrupts the user with important content and expects a response.",
+      "registryDependencies": [
+        "alert-dialog",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/alert-dialog.tsx",
+          "type": "registry:file",
+          "target": "components/ui/alert-dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "title": "Aspect Ratio",
+      "description": "Displays content within a desired aspect ratio.",
+      "registryDependencies": [
+        "aspect-ratio",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/aspect-ratio.tsx",
+          "type": "registry:file",
+          "target": "components/ui/aspect-ratio.tsx"
+        }
+      ]
+    },
+    {
       "name": "avatar",
       "type": "registry:ui",
       "title": "Avatar",
@@ -461,6 +495,23 @@
       ]
     },
     {
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "description": "A collection of images that can be scrolled through.",
+      "registryDependencies": [
+        "carousel",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/carousel.tsx",
+          "type": "registry:file",
+          "target": "components/ui/carousel.tsx"
+        }
+      ]
+    },
+    {
       "name": "chart",
       "type": "registry:ui",
       "title": "Chart",
@@ -491,313 +542,6 @@
           "path": "src/components/ui/checkbox.tsx",
           "type": "registry:file",
           "target": "components/ui/checkbox.tsx"
-        }
-      ]
-    },
-
-
-    {
-      "name": "data-table",
-      "type": "registry:ui",
-      "title": "Data Table",
-      "description": "Powerful table and datagrids built using TanStack Table.",
-      "registryDependencies": [
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/table.tsx",
-          "type": "registry:file",
-          "target": "components/ui/table.tsx"
-        }
-      ]
-    },
-    {
-      "name": "dialog",
-      "type": "registry:ui",
-      "title": "Dialog",
-      "description": "A modal dialog that interrupts the user with important content.",
-      "registryDependencies": [
-        "dialog",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/dialog.tsx",
-          "type": "registry:file",
-          "target": "components/ui/dialog.tsx"
-        }
-      ]
-    },
-    {
-      "name": "dropdown-menu",
-      "type": "registry:ui",
-      "title": "Dropdown",
-      "description": "Displays a menu to the user triggered by a button.",
-      "registryDependencies": [
-        "dropdown-menu",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/dropdown-menu.tsx",
-          "type": "registry:file",
-          "target": "components/ui/dropdown-menu.tsx"
-        }
-      ]
-    },
-    {
-      "name": "input",
-      "type": "registry:ui",
-      "title": "Input",
-      "description": "Displays a form input field or a component that looks like an input field.",
-      "registryDependencies": [
-        "input",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/input.tsx",
-          "type": "registry:file",
-          "target": "components/ui/input.tsx"
-        }
-      ]
-    },
-    {
-      "name": "menubar",
-      "type": "registry:ui",
-      "title": "Menu Bar",
-      "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
-      "registryDependencies": [
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/menubar.tsx",
-          "type": "registry:file",
-          "target": "components/ui/menubar.tsx"
-        }
-      ]
-    },
-
-    {
-      "name": "select",
-      "type": "registry:ui",
-      "title": "Select",
-      "description": "Displays a list of options for the user to pick from—triggered by a button.",
-      "registryDependencies": [
-        "select",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/select.tsx",
-          "type": "registry:file",
-          "target": "components/ui/select.tsx"
-        }
-      ]
-    },
-    {
-      "name": "separator",
-      "type": "registry:ui",
-      "title": "Separator",
-      "description": "Visually or semantically separates content.",
-      "registryDependencies": [
-        "separator",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/separator.tsx",
-          "type": "registry:file",
-          "target": "components/ui/separator.tsx"
-        }
-      ]
-    },
-    {
-      "name": "skeleton",
-      "type": "registry:ui",
-      "title": "Skeleton",
-      "description": "Use to show a placeholder while content is loading.",
-      "registryDependencies": [
-        "skeleton",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/skeleton.tsx",
-          "type": "registry:file",
-          "target": "components/ui/skeleton.tsx"
-        }
-      ]
-    },
-    {
-      "name": "slider",
-      "type": "registry:ui",
-      "title": "Slider",
-      "description": "An input where the user selects a value from within a given range.",
-      "registryDependencies": [
-        "slider",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/slider.tsx",
-          "type": "registry:file",
-          "target": "components/ui/slider.tsx"
-        }
-      ]
-    },
-    {
-      "name": "sonner",
-      "type": "registry:ui",
-      "title": "Sonner",
-      "description": "An opinionated toast component for React.",
-      "registryDependencies": [
-        "sonner",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/sonner.tsx",
-          "type": "registry:file",
-          "target": "components/ui/sonner.tsx"
-        }
-      ]
-    },
-    {
-      "name": "switch",
-      "type": "registry:ui",
-      "title": "Switch",
-      "description": "A control that allows the user to toggle between checked and not checked.",
-      "registryDependencies": [
-        "switch",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/switch.tsx",
-          "type": "registry:file",
-          "target": "components/ui/switch.tsx"
-        }
-      ]
-    },
-    {
-      "name": "table",
-      "type": "registry:ui",
-      "title": "Table",
-      "description": "A responsive table component.",
-      "registryDependencies": [
-        "table",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/table.tsx",
-          "type": "registry:file",
-          "target": "components/ui/table.tsx"
-        }
-      ]
-    },
-    {
-      "name": "tabs",
-      "type": "registry:ui",
-      "title": "Tabs",
-      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
-      "registryDependencies": [
-        "tabs",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/tabs.tsx",
-          "type": "registry:file",
-          "target": "components/ui/tabs.tsx"
-        }
-      ]
-    },
-    {
-      "name": "toggle-group",
-      "type": "registry:ui",
-      "title": "Toggle Group",
-      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
-      "registryDependencies": [
-        "toggle-group",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/toggle-group.tsx",
-          "type": "registry:file",
-          "target": "components/ui/toggle-group.tsx"
-        }
-      ]
-    },
-    {
-      "name": "tooltip",
-      "type": "registry:ui",
-      "title": "Tooltip",
-      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
-      "registryDependencies": [
-        "tooltip",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/tooltip.tsx",
-          "type": "registry:file",
-          "target": "components/ui/tooltip.tsx"
-        }
-      ]
-    },
-    {
-      "name": "alert-dialog",
-      "type": "registry:ui",
-      "title": "Alert Dialog",
-      "description": "A modal dialog that interrupts the user with important content and expects a response.",
-      "registryDependencies": [
-        "alert-dialog",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/alert-dialog.tsx",
-          "type": "registry:file",
-          "target": "components/ui/alert-dialog.tsx"
-        }
-      ]
-    },
-    {
-      "name": "aspect-ratio",
-      "type": "registry:ui",
-      "title": "Aspect Ratio",
-      "description": "Displays content within a desired aspect ratio.",
-      "registryDependencies": [
-        "aspect-ratio",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/aspect-ratio.tsx",
-          "type": "registry:file",
-          "target": "components/ui/aspect-ratio.tsx"
-        }
-      ]
-    },
-    {
-      "name": "carousel",
-      "type": "registry:ui",
-      "title": "Carousel",
-      "description": "A collection of images that can be scrolled through.",
-      "registryDependencies": [
-        "carousel",
-        "https://eco-design-system.vercel.app/r/theme.json"
-      ],
-      "files": [
-        {
-          "path": "src/components/ui/carousel.tsx",
-          "type": "registry:file",
-          "target": "components/ui/carousel.tsx"
         }
       ]
     },
@@ -853,6 +597,39 @@
       ]
     },
     {
+      "name": "data-table",
+      "type": "registry:ui",
+      "title": "Data Table",
+      "description": "Powerful table and datagrids built using TanStack Table.",
+      "registryDependencies": [
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/table.tsx",
+          "type": "registry:file",
+          "target": "components/ui/table.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "A modal dialog that interrupts the user with important content.",
+      "registryDependencies": [
+        "dialog",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/dialog.tsx",
+          "type": "registry:file",
+          "target": "components/ui/dialog.tsx"
+        }
+      ]
+    },
+    {
       "name": "drawer",
       "type": "registry:ui",
       "title": "Drawer",
@@ -866,6 +643,23 @@
           "path": "src/components/ui/drawer.tsx",
           "type": "registry:file",
           "target": "components/ui/drawer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown",
+      "description": "Displays a menu to the user triggered by a button.",
+      "registryDependencies": [
+        "dropdown-menu",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/dropdown-menu.tsx",
+          "type": "registry:file",
+          "target": "components/ui/dropdown-menu.tsx"
         }
       ]
     },
@@ -904,6 +698,23 @@
       ]
     },
     {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Displays a form input field or a component that looks like an input field.",
+      "registryDependencies": [
+        "input",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/input.tsx",
+          "type": "registry:file",
+          "target": "components/ui/input.tsx"
+        }
+      ]
+    },
+    {
       "name": "input-otp",
       "type": "registry:ui",
       "title": "Input OTP",
@@ -934,6 +745,22 @@
           "path": "src/components/ui/label.tsx",
           "type": "registry:file",
           "target": "components/ui/label.tsx"
+        }
+      ]
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "title": "Menu Bar",
+      "description": "A visually persistent menu common in desktop applications that provides quick access to a consistent set of commands.",
+      "registryDependencies": [
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/menubar.tsx",
+          "type": "registry:file",
+          "target": "components/ui/menubar.tsx"
         }
       ]
     },
@@ -1057,6 +884,40 @@
       ]
     },
     {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "Displays a list of options for the user to pick from—triggered by a button.",
+      "registryDependencies": [
+        "select",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/select.tsx",
+          "type": "registry:file",
+          "target": "components/ui/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "Visually or semantically separates content.",
+      "registryDependencies": [
+        "separator",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/separator.tsx",
+          "type": "registry:file",
+          "target": "components/ui/separator.tsx"
+        }
+      ]
+    },
+    {
       "name": "sheet",
       "type": "registry:ui",
       "title": "Sheet",
@@ -1091,6 +952,108 @@
       ]
     },
     {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Use to show a placeholder while content is loading.",
+      "registryDependencies": [
+        "skeleton",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/skeleton.tsx",
+          "type": "registry:file",
+          "target": "components/ui/skeleton.tsx"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "An input where the user selects a value from within a given range.",
+      "registryDependencies": [
+        "slider",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/slider.tsx",
+          "type": "registry:file",
+          "target": "components/ui/slider.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sonner",
+      "type": "registry:ui",
+      "title": "Sonner",
+      "description": "An opinionated toast component for React.",
+      "registryDependencies": [
+        "sonner",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/sonner.tsx",
+          "type": "registry:file",
+          "target": "components/ui/sonner.tsx"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "registryDependencies": [
+        "switch",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/switch.tsx",
+          "type": "registry:file",
+          "target": "components/ui/switch.tsx"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "A responsive table component.",
+      "registryDependencies": [
+        "table",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/table.tsx",
+          "type": "registry:file",
+          "target": "components/ui/table.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+      "registryDependencies": [
+        "tabs",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/tabs.tsx",
+          "type": "registry:file",
+          "target": "components/ui/tabs.tsx"
+        }
+      ]
+    },
+    {
       "name": "textarea",
       "type": "registry:ui",
       "title": "Textarea",
@@ -1121,6 +1084,40 @@
           "path": "src/components/ui/toggle.tsx",
           "type": "registry:file",
           "target": "components/ui/toggle.tsx"
+        }
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "title": "Toggle Group",
+      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "registryDependencies": [
+        "toggle-group",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/toggle-group.tsx",
+          "type": "registry:file",
+          "target": "components/ui/toggle-group.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "registryDependencies": [
+        "tooltip",
+        "https://eco-design-system.vercel.app/r/theme.json"
+      ],
+      "files": [
+        {
+          "path": "src/components/ui/tooltip.tsx",
+          "type": "registry:file",
+          "target": "components/ui/tooltip.tsx"
         }
       ]
     }
