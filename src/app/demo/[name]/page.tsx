@@ -35,7 +35,7 @@ export default async function DemoPage({
   return (
     <div className="flex h-[100vh] w-full items-center justify-center bg-card">
       {components && (
-        <div className="relative w-full h-full p-2 flex items-center justify-center">
+        <div className="relative w-full h-full flex items-center justify-center">
           <Renderer>
             {/* Show Demo component if it exists, otherwise show the first available component */}
             {components.Demo || Object.values(components)[0]}
