@@ -54,6 +54,156 @@
 
   --radius: var(--radius);
 
+  /* Color Ramps */
+  --color-gray-50: var(--gray-50);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
+  --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
+  --color-gray-800: var(--gray-800);
+  --color-gray-900: var(--gray-900);
+  --color-gray-950: var(--gray-950);
+
+  --color-slate-50: var(--slate-50);
+  --color-slate-100: var(--slate-100);
+  --color-slate-200: var(--slate-200);
+  --color-slate-300: var(--slate-300);
+  --color-slate-400: var(--slate-400);
+  --color-slate-500: var(--slate-500);
+  --color-slate-600: var(--slate-600);
+  --color-slate-700: var(--slate-700);
+  --color-slate-800: var(--slate-800);
+  --color-slate-900: var(--slate-900);
+  --color-slate-950: var(--slate-950);
+
+  --color-blue-50: var(--blue-50);
+  --color-blue-100: var(--blue-100);
+  --color-blue-200: var(--blue-200);
+  --color-blue-300: var(--blue-300);
+  --color-blue-400: var(--blue-400);
+  --color-blue-500: var(--blue-500);
+  --color-blue-600: var(--blue-600);
+  --color-blue-700: var(--blue-700);
+  --color-blue-800: var(--blue-800);
+  --color-blue-900: var(--blue-900);
+  --color-blue-950: var(--blue-950);
+
+  --color-green-50: var(--green-50);
+  --color-green-100: var(--green-100);
+  --color-green-200: var(--green-200);
+  --color-green-300: var(--green-300);
+  --color-green-400: var(--green-400);
+  --color-green-500: var(--green-500);
+  --color-green-600: var(--green-600);
+  --color-green-700: var(--green-700);
+  --color-green-800: var(--green-800);
+  --color-green-900: var(--green-900);
+  --color-green-950: var(--green-950);
+
+  --color-red-50: var(--red-50);
+  --color-red-100: var(--red-100);
+  --color-red-200: var(--red-200);
+  --color-red-300: var(--red-300);
+  --color-red-400: var(--red-400);
+  --color-red-500: var(--red-500);
+  --color-red-600: var(--red-600);
+  --color-red-700: var(--red-700);
+  --color-red-800: var(--red-800);
+  --color-red-900: var(--red-900);
+  --color-red-950: var(--red-950);
+
+  --color-orange-50: var(--orange-50);
+  --color-orange-100: var(--orange-100);
+  --color-orange-200: var(--orange-200);
+  --color-orange-300: var(--orange-300);
+  --color-orange-400: var(--orange-400);
+  --color-orange-500: var(--orange-500);
+  --color-orange-600: var(--orange-600);
+  --color-orange-700: var(--orange-700);
+  --color-orange-800: var(--orange-800);
+  --color-orange-900: var(--orange-900);
+  --color-orange-950: var(--orange-950);
+
+  /* Border Radius */
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  /* Box Shadows */
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+
+  /* Font Sizes */
+  --font-size-xs: var(--text-xs);
+  --font-size-sm: var(--text-sm);
+  --font-size-base: var(--text-base);
+  --font-size-md: var(--text-md);
+  --font-size-lg: var(--text-lg);
+  --font-size-xl: var(--text-xl);
+  --font-size-2xl: var(--text-2xl);
+  --font-size-3xl: var(--text-3xl);
+  --font-size-4xl: var(--text-4xl);
+  --font-size-5xl: var(--text-5xl);
+
+  /* Font Families */
+  --font-family-sans: var(--font-sans);
+  --font-family-serif: var(--font-serif);
+  --font-family-mono: var(--font-mono);
+
+  /* Height Tokens */
+  --height-xs: var(--height-xs);
+  --height-sm: var(--height-sm);
+  --height-md: var(--height-md);
+
+  /* Eco Button Colors */
+  --color-eco-button-primary-bg-base-light: var(--eco-button-primary-bg-base-light);
+  --color-eco-button-primary-bg-base-dark: var(--eco-button-primary-bg-base-dark);
+  --color-eco-button-primary-bg-hover-light: var(--eco-button-primary-bg-hover-light);
+  --color-eco-button-primary-bg-hover-dark: var(--eco-button-primary-bg-hover-dark);
+  --color-eco-button-primary-bg-active: var(--eco-button-primary-bg-active);
+  --color-eco-button-primary-bg-disabled: var(--eco-button-primary-bg-disabled);
+  --color-eco-button-primary-text-base: var(--eco-button-primary-text-base);
+  --color-eco-button-primary-text-disabled: var(--eco-button-primary-text-disabled);
+  --color-eco-button-secondary-bg-base-light: var(--eco-button-secondary-bg-base-light);
+  --color-eco-button-secondary-bg-base-dark: var(--eco-button-secondary-bg-base-dark);
+  --color-eco-button-secondary-bg-hover-light: var(--eco-button-secondary-bg-hover-light);
+  --color-eco-button-secondary-bg-hover-dark: var(--eco-button-secondary-bg-hover-dark);
+  --color-eco-button-secondary-bg-active: var(--eco-button-secondary-bg-active);
+  --color-eco-button-secondary-bg-disabled: var(--eco-button-secondary-bg-disabled);
+  --color-eco-button-secondary-text-base: var(--eco-button-secondary-text-base);
+  --color-eco-button-secondary-text-disabled: var(--eco-button-secondary-text-disabled);
+  --color-eco-button-secondary-border-base: var(--eco-button-secondary-border-base);
+  --color-eco-button-secondary-border-disabled: var(--eco-button-secondary-border-disabled);
+  --color-eco-button-secondary-border-active: var(--eco-button-secondary-border-active);
+  --color-eco-button-tertiary-bg-hover: var(--eco-button-tertiary-bg-hover);
+  --color-eco-button-tertiary-bg-active: var(--eco-button-tertiary-bg-active);
+  --color-eco-button-tertiary-text: var(--eco-button-tertiary-text);
+  --color-eco-button-tertiary-text-disabled: var(--eco-button-tertiary-text-disabled);
+  --color-eco-button-destructive-solid-bg-normal: var(--eco-button-destructive-solid-bg-normal);
+  --color-eco-button-destructive-solid-bg-hover: var(--eco-button-destructive-solid-bg-hover);
+  --color-eco-button-destructive-solid-bg-active: var(--eco-button-destructive-solid-bg-active);
+  --color-eco-button-destructive-solid-bg-disabled: var(--eco-button-destructive-solid-bg-disabled);
+  --color-eco-button-destructive-solid-text: var(--eco-button-destructive-solid-text);
+  --color-eco-button-destructive-solid-text-disabled: var(--eco-button-destructive-solid-text-disabled);
+  --color-eco-button-destructive-ghost-text-normal: var(--eco-button-destructive-ghost-text-normal);
+  --color-eco-button-destructive-ghost-text-hover: var(--eco-button-destructive-ghost-text-hover);
+  --color-eco-button-destructive-ghost-bg-hover: var(--eco-button-destructive-ghost-bg-hover);
+  --color-eco-button-destructive-ghost-bg-active: var(--eco-button-destructive-ghost-bg-active);
+  --color-eco-button-destructive-ghost-text-active: var(--eco-button-destructive-ghost-text-active);
+  --color-eco-button-destructive-ghost-text-disabled: var(--eco-button-destructive-ghost-text-disabled);
+  --color-eco-button-destructive-ghost-border-normal: var(--eco-button-destructive-ghost-border-normal);
+  --color-eco-button-destructive-ghost-border-hover: var(--eco-button-destructive-ghost-border-hover);
+  --color-eco-button-destructive-ghost-border-active: var(--eco-button-destructive-ghost-border-active);
+
   /* Height Tokens */
   --height-xs: var(--height-xs);
   --height-sm: var(--height-sm);
@@ -68,11 +218,68 @@
   --button-primary-bg-disabled: var(--blue-800);
   --button-primary-text-base: var(--neutral-white);
   --button-primary-text-disabled: var(--utility-white-30);
+
+  /* Eco Button Colors */
+  --eco-button-primary-bg-base-light: var(--button-primary-bg-base-light);
+  --eco-button-primary-bg-base-dark: var(--button-primary-bg-base-dark);
+  --eco-button-primary-bg-hover-light: var(--button-primary-bg-hover-light);
+  --eco-button-primary-bg-hover-dark: var(--button-primary-bg-hover-dark);
+  --eco-button-primary-bg-active: var(--button-primary-bg-active);
+  --eco-button-primary-bg-disabled: var(--button-primary-bg-disabled);
+  --eco-button-primary-text-base: var(--button-primary-text-base);
+  --eco-button-primary-text-disabled: var(--button-primary-text-disabled);
+  --eco-button-secondary-bg-base-light: var(--button-secondary-bg-base-light);
+  --eco-button-secondary-bg-base-dark: var(--button-secondary-bg-base-dark);
+  --eco-button-secondary-bg-hover-light: var(--button-secondary-bg-hover-light);
+  --eco-button-secondary-bg-hover-dark: var(--button-secondary-bg-hover-dark);
+  --eco-button-secondary-bg-active: var(--button-secondary-bg-active);
+  --eco-button-secondary-bg-disabled: var(--button-secondary-bg-disabled);
+  --eco-button-secondary-text-base: var(--button-secondary-text-base);
+  --eco-button-secondary-text-disabled: var(--button-secondary-text-disabled);
+  --eco-button-secondary-border-base: var(--button-secondary-border-base);
+  --eco-button-secondary-border-disabled: var(--button-secondary-border-disabled);
+  --eco-button-secondary-border-active: var(--button-secondary-border-active);
+  --eco-button-tertiary-bg-hover: var(--button-tertiary-bg-hover);
+  --eco-button-tertiary-bg-active: var(--button-tertiary-bg-active);
+  --eco-button-tertiary-text: var(--button-tertiary-text);
+  --eco-button-tertiary-text-disabled: var(--button-tertiary-disabled-text);
+  --eco-button-destructive-solid-bg-normal: var(--button-destructive-solid-bg-normal);
+  --eco-button-destructive-solid-bg-hover: var(--button-destructive-solid-bg-hover);
+  --eco-button-destructive-solid-bg-active: var(--button-destructive-solid-bg-active);
+  --eco-button-destructive-solid-bg-disabled: var(--button-destructive-solid-bg-disabled);
+  --eco-button-destructive-solid-text: var(--button-destructive-solid-text);
+  --eco-button-destructive-solid-text-disabled: var(--button-destructive-solid-text-disabled);
+  --eco-button-destructive-ghost-text-normal: var(--button-destructive-ghost-text-normal);
+  --eco-button-destructive-ghost-text-hover: var(--button-destructive-ghost-text-hover);
+  --eco-button-destructive-ghost-bg-hover: var(--button-destructive-ghost-bg-hover);
+  --eco-button-destructive-ghost-bg-active: var(--button-destructive-ghost-bg-active);
+  --eco-button-destructive-ghost-text-active: var(--button-destructive-ghost-text-active);
+  --eco-button-destructive-ghost-text-disabled: var(--button-destructive-ghost-text-disabled);
+  --eco-button-destructive-ghost-border-normal: var(--button-destructive-ghost-border-normal);
+  --eco-button-destructive-ghost-border-hover: var(--button-destructive-ghost-border-hover);
+  --eco-button-destructive-ghost-border-active: var(--button-destructive-ghost-border-active);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@keyframes fade-in-scale {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@layer utilities {
+  .animate-fade-in-scale {
+    animation: fade-in-scale 0.3s ease-out;
   }
 }
 

@@ -129,6 +129,40 @@
   --button-primary-text-base: var(--neutral-white);
   --button-primary-text-disabled: var(--bg-component-default);
 
+  --button-secondary-bg-base-light: var(--slate-50);
+  --button-secondary-bg-base-dark: var(--slate-100);
+  --button-secondary-bg-hover-light: var(--slate-100);
+  --button-secondary-bg-hover-dark: var(--slate-200);
+  --button-secondary-bg-active: var(--slate-100);
+  --button-secondary-bg-disabled: var(--bg-component-default);
+  --button-secondary-text-base: var(--text-primary);
+  --button-secondary-text-disabled: var(--slate-300);
+  --button-secondary-border-base: var(--slate-300);
+  --button-secondary-border-disabled: var(--slate-200);
+  --button-secondary-border-active: var(--slate-400);
+
+  --button-tertiary-bg-hover: var(--slate-50);
+  --button-tertiary-bg-active: var(--slate-100);
+  --button-tertiary-text: var(--text-primary);
+  --button-tertiary-disabled-text: var(--slate-400);
+
+  --button-destructive-solid-bg-normal: var(--red-500);
+  --button-destructive-solid-bg-hover: var(--red-600);
+  --button-destructive-solid-bg-active: var(--red-700);
+  --button-destructive-solid-bg-disabled: var(--red-100);
+  --button-destructive-solid-text: var(--neutral-white);
+  --button-destructive-solid-text-disabled: var(--neutral-white);
+
+  --button-destructive-ghost-text-normal: var(--red-500);
+  --button-destructive-ghost-text-hover: var(--red-600);
+  --button-destructive-ghost-bg-hover: var(--red-50);
+  --button-destructive-ghost-bg-active: var(--red-100);
+  --button-destructive-ghost-text-active: var(--red-700);
+  --button-destructive-ghost-text-disabled: var(--red-200);
+  --button-destructive-ghost-border-normal: var(--red-200);
+  --button-destructive-ghost-border-hover: var(--red-300);
+  --button-destructive-ghost-border-active: var(--red-400);
+
   /* Status & Field Tokens */
   --status-success: var(--green-800);
   --status-error: var(--red-600);
@@ -330,6 +364,40 @@
   --button-primary-bg-disabled: var(--blue-800);
   --button-primary-text-base: var(--neutral-white);
   --button-primary-text-disabled: var(--utility-white-30);
+
+  --button-secondary-bg-base-light: var(--slate-900);
+  --button-secondary-bg-base-dark: var(--slate-950);
+  --button-secondary-bg-hover-light: var(--slate-900);
+  --button-secondary-bg-hover-dark: var(--slate-800);
+  --button-secondary-bg-active: var(--slate-900);
+  --button-secondary-bg-disabled: var(--bg-component-default);
+  --button-secondary-text-base: var(--text-primary);
+  --button-secondary-text-disabled: var(--slate-700);
+  --button-secondary-border-base: var(--slate-700);
+  --button-secondary-border-disabled: var(--slate-800);
+  --button-secondary-border-active: var(--slate-600);
+
+  --button-tertiary-bg-hover: var(--slate-50);
+  --button-tertiary-bg-active: var(--slate-100);
+  --button-tertiary-text: var(--text-primary);
+  --button-tertiary-disabled-text: var(--slate-400);
+
+  --button-destructive-solid-bg-normal: var(--red-700);
+  --button-destructive-solid-bg-hover: var(--red-800);
+  --button-destructive-solid-bg-active: var(--red-900);
+  --button-destructive-solid-bg-disabled: var(--red-950);
+  --button-destructive-solid-text: var(--red-100);
+  --button-destructive-solid-text-disabled: var(--red-900);
+
+  --button-destructive-ghost-text-normal: var(--red-600);
+  --button-destructive-ghost-text-hover: var(--red-700);
+  --button-destructive-ghost-bg-hover: var(--red-950);
+  --button-destructive-ghost-bg-active: var(--red-900);
+  --button-destructive-ghost-text-active: var(--red-300);
+  --button-destructive-ghost-text-disabled: var(--red-800);
+  --button-destructive-ghost-border-normal: var(--red-600);
+  --button-destructive-ghost-border-hover: var(--red-700);
+  --button-destructive-ghost-border-active: var(--red-600);
 
   /* Border Tokens */
   --border-field: var(--slate-600);

@@ -10,21 +10,21 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-primary text-primary-foreground shadow-xs hover:bg-primary/90",
+          "bg-gradient-to-b from-eco-button-primary-bg-base-light to-eco-button-primary-bg-base-dark text-eco-button-primary-text-base leading-base [leading-trim:both] [text-edge:cap] hover:from-eco-button-primary-bg-hover-light hover:to-eco-button-primary-bg-hover-dark active:from-eco-button-primary-bg-base-dark active:to-eco-button-primary-bg-base-light disabled:from-eco-button-primary-bg-disabled disabled:to-eco-button-primary-bg-disabled disabled:text-eco-button-primary-text-disabled",
         destructive:
-          "bg-destructive text-white shadow-xs hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
+          "active:bg-eco-button-destructive-solid-bg-active bg-eco-button-destructive-solid-bg-normal disabled:bg-eco-button-destructive-solid-bg-disabled disabled:text-eco-button-destructive-solid-text-disabled hover:bg-eco-button-destructive-solid-bg-hover hover:text-eco-button-destructive-solid-text text-eco-button-destructive-solid-text",
         outline:
-          "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+          "bg-gradient-to-b border border-eco-button-secondary-border-base disabled:border-eco-button-secondary-border-disabled disabled:from-eco-button-secondary-bg-disabled disabled:text-eco-button-secondary-text-disabled disabled:to-eco-button-secondary-bg-disabled from-eco-button-secondary-bg-base-light hover:from-eco-button-secondary-bg-hover-light hover:text-eco-button-secondary-text-base hover:to-eco-button-secondary-bg-hover-dark active:from-eco-button-secondary-bg-hover-dark active:to-eco-button-secondary-bg-hover-light to-eco-button-secondary-bg-base-dark",
         secondary:
-          "bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80",
+          "bg-gradient-to-b border border-eco-button-secondary-border-base disabled:border-eco-button-secondary-border-disabled disabled:from-eco-button-secondary-bg-disabled disabled:text-eco-button-secondary-text-disabled disabled:to-eco-button-secondary-bg-disabled from-eco-button-secondary-bg-base-light hover:from-eco-button-secondary-bg-hover-light hover:text-eco-button-secondary-text-base hover:to-eco-button-secondary-bg-hover-dark active:from-eco-button-secondary-bg-hover-dark active:to-eco-button-secondary-bg-hover-light to-eco-button-secondary-bg-base-dark",
         ghost:
-          "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
+          "bg-transparent disabled:bg-transparent disabled:text-eco-button-tertiary-text-disabled hover:bg-eco-button-tertiary-bg-hover text-eco-button-tertiary-text active:bg-eco-button-tertiary-bg-active",
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {
-        default: "h-sm px-3 py-2 has-[>svg]:px-2",
-        sm: "text-xs h-xs rounded-md gap-1.5 px-2 py-1 has-[>svg]:px-1.5",
-        lg: "text-base h-md rounded-md px-3 py-3 has-[>svg]:px-2.5",
+        default: "h-sm px-3 py-2 has-[>svg]:px-2 gap-2",
+        sm: "text-xs h-xs rounded-md gap-1 px-2 py-1 has-[>svg]:px-1.5 gap-1",
+        lg: "text-base h-md rounded-md px-3 py-3 has-[>svg]:px-2.5 gap-2",
         icon: "size-9",
       },
     },
