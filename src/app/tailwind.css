@@ -191,10 +191,10 @@
   --color-eco-button-secondary-border-base: var(--eco-button-secondary-border-base);
   --color-eco-button-secondary-border-disabled: var(--eco-button-secondary-border-disabled);
   --color-eco-button-secondary-border-active: var(--eco-button-secondary-border-active);
-  --color-eco-button-tertiary-bg-hover: var(--eco-button-tertiary-bg-hover);
-  --color-eco-button-tertiary-bg-active: var(--eco-button-tertiary-bg-active);
-  --color-eco-button-tertiary-text: var(--eco-button-tertiary-text);
-  --color-eco-button-tertiary-text-disabled: var(--eco-button-tertiary-text-disabled);
+  --color-eco-button-ghost-bg-hover: var(--eco-button-ghost-bg-hover);
+  --color-eco-button-ghost-bg-active: var(--eco-button-ghost-bg-active);
+  --color-eco-button-ghost-text: var(--eco-button-ghost-text);
+  --color-eco-button-ghost-text-disabled: var(--eco-button-ghost-text-disabled);
   --color-eco-button-destructive-solid-bg-normal: var(--eco-button-destructive-solid-bg-normal);
   --color-eco-button-destructive-solid-bg-hover: var(--eco-button-destructive-solid-bg-hover);
   --color-eco-button-destructive-solid-bg-active: var(--eco-button-destructive-solid-bg-active);
