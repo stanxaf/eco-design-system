@@ -54,9 +54,9 @@ const buttonVariants = cva(
         // Ghost button - transparent
         ghost: [
           "bg-transparent text-eco-text-primary",
-          "hover:bg-eco-button-tertiary-bg-hover",
-          "active:bg-eco-button-tertiary-bg-active",
-          "disabled:text-eco-button-tertiary-text-disabled",
+          "hover:bg-eco-button-ghost-bg-hover",
+          "active:bg-eco-button-ghost-bg-active",
+          "disabled:text-eco-button-ghost-text-disabled",
         ].join(" "),
 
         // Destructive button - red solid

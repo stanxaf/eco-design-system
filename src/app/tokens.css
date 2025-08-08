@@ -141,10 +141,10 @@
   --button-secondary-border-disabled: var(--slate-200);
   --button-secondary-border-active: var(--slate-400);
 
-  --button-tertiary-bg-hover: var(--slate-50);
-  --button-tertiary-bg-active: var(--slate-100);
-  --button-tertiary-text: var(--eco-text-primary);
-  --button-tertiary-disabled-text: var(--slate-400);
+  --button-ghost-bg-hover: var(--slate-50);
+  --button-ghost-bg-active: var(--slate-100);
+  --button-ghost-text: var(--eco-text-primary);
+  --button-ghost-disabled-text: var(--slate-400);
 
   --button-destructive-solid-bg-normal: var(--red-500);
   --button-destructive-solid-bg-hover: var(--red-600);
@@ -377,10 +377,10 @@
   --button-secondary-border-disabled: var(--slate-800);
   --button-secondary-border-active: var(--slate-600);
 
-  --button-tertiary-bg-hover: var(--slate-50);
-  --button-tertiary-bg-active: var(--slate-100);
-  --button-tertiary-text: var(--eco-text-primary);
-  --button-tertiary-disabled-text: var(--slate-400);
+  --button-ghost-bg-hover: var(--slate-50);
+  --button-ghost-bg-active: var(--slate-100);
+  --button-ghost-text: var(--eco-text-primary);
+  --button-ghost-disabled-text: var(--slate-400);
 
   --button-destructive-solid-bg-normal: var(--red-700);
   --button-destructive-solid-bg-hover: var(--red-800);
