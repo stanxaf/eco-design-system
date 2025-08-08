@@ -89,12 +89,12 @@
   --orange-950: #1D0F06;
 
   /* Text Tokens */
-  --text-primary: var(--gray-950);
-  --text-secondary: var(--gray-800);
-  --text-tertiary: var(--gray-600);
-  --text-on-dark: var(--neutral-white);
-  --text-link-base: var(--blue-600);
-  --text-link-hover: var(--blue-700);
+  --eco-text-primary: var(--gray-950);
+  --eco-text-secondary: var(--gray-800);
+  --eco-text-tertiary: var(--gray-600);
+  --eco-text-on-dark: var(--neutral-white);
+  --eco-text-link-base: var(--blue-600);
+  --eco-text-link-hover: var(--blue-700);
 
   /* Background Tokens */
   --bg-surface-default: var(--neutral-white);
@@ -203,19 +203,19 @@
 
   /* Shadcn theme overrides */
   --background: var(--bg-surface-default);
-  --foreground: var(--text-primary);
+  --foreground: var(--eco-text-primary);
 
   --card: var(--bg-surface-light);
-  --card-foreground: var(--text-primary);
+  --card-foreground: var(--eco-text-primary);
 
   --popover: var(--bg-component-light);
-  --popover-foreground: var(--text-primary);
+  --popover-foreground: var(--eco-text-primary);
 
   --primary: var(--blue-500);
   --primary-foreground: var(--neutral-white);
 
   --secondary: var(--bg-surface-light);
-  --secondary-foreground: var(--text-primary);
+  --secondary-foreground: var(--eco-text-secondary);
 
   --muted: var(--bg-surface-medium);
   --muted-foreground: var(--text-tertiary);
@@ -325,12 +325,12 @@
   --sidebar-ring: oklch(0.58 0.15 144.17); */
 
   /* Text Tokens */
-  --text-primary: var(--gray-200);
-  --text-secondary: var(--gray-300);
-  --text-tertiary: var(--gray-500);
-  --text-on-dark: var(--neutral-white);
-  --text-link-base: var(--blue-400);
-  --text-link-hover: var(--blue-700);
+  --eco-text-primary: var(--gray-200);
+  --eco-text-secondary: var(--gray-300);
+  --eco-text-tertiary: var(--gray-500);
+  --eco-text-on-dark: var(--neutral-white);
+  --eco-text-link-base: var(--blue-400);
+  --eco-text-link-hover: var(--blue-700);
 
   /* Background Tokens */
   --bg-surface-default: var(--neutral-black);
