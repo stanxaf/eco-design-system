@@ -182,8 +182,8 @@
 
   --status-positive: var(--green-500);
 
-  --field-label: var(--text-secondary);
-  --field-text: var(--text-primary);
+  --field-label: var(--eco-text-secondary);
+  --field-text: var(--eco-text-primary);
   --field-placeholder: var(--gray-600);
 
   /* Border Tokens */
@@ -218,7 +218,7 @@
   --secondary-foreground: var(--eco-text-secondary);
 
   --muted: var(--bg-surface-medium);
-  --muted-foreground: var(--text-tertiary);
+  --muted-foreground: var(--eco-text-tertiary);
 
   --accent: var(--blue-500);
   --accent-foreground: var(--neutral-white);
