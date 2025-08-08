@@ -127,6 +127,13 @@
   --color-orange-900: var(--orange-900);
   --color-orange-950: var(--orange-950);
 
+  --color-eco-text-primary: var(--eco-text-primary);
+  --color-eco-text-secondary: var(--eco-text-secondary);
+  --color-eco-text-tertiary: var(--eco-text-tertiary);
+  --color-eco-text-on-dark: var(--eco-text-on-dark);
+  --color-eco-text-link-base: var(--eco-text-link-base);
+  --color-eco-text-link-hover: var(--eco-text-link-hover);
+
   /* Border Radius */
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);

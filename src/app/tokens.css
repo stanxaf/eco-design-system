@@ -135,7 +135,7 @@
   --button-secondary-bg-hover-dark: var(--slate-200);
   --button-secondary-bg-active: var(--slate-100);
   --button-secondary-bg-disabled: var(--bg-component-default);
-  --button-secondary-text-base: var(--text-primary);
+  --button-secondary-text-base: var(--eco-text-primary);
   --button-secondary-text-disabled: var(--slate-300);
   --button-secondary-border-base: var(--slate-300);
   --button-secondary-border-disabled: var(--slate-200);
@@ -143,7 +143,7 @@
 
   --button-tertiary-bg-hover: var(--slate-50);
   --button-tertiary-bg-active: var(--slate-100);
-  --button-tertiary-text: var(--text-primary);
+  --button-tertiary-text: var(--eco-text-primary);
   --button-tertiary-disabled-text: var(--slate-400);
 
   --button-destructive-solid-bg-normal: var(--red-500);
@@ -314,7 +314,7 @@
   --chart-4: oklch(0.48 0.12 144.31);
   --chart-5: oklch(0.35 0.08 145.73);
 
-/*
+  /*
   --sidebar: oklch(0.15 0.01 74.42);
   --sidebar-foreground: oklch(0.95 0.02 80.72);
   --sidebar-primary: oklch(0.58 0.15 144.17);
@@ -371,7 +371,7 @@
   --button-secondary-bg-hover-dark: var(--slate-800);
   --button-secondary-bg-active: var(--slate-900);
   --button-secondary-bg-disabled: var(--bg-component-default);
-  --button-secondary-text-base: var(--text-primary);
+  --button-secondary-text-base: var(--eco-text-primary);
   --button-secondary-text-disabled: var(--slate-700);
   --button-secondary-border-base: var(--slate-700);
   --button-secondary-border-disabled: var(--slate-800);
@@ -379,7 +379,7 @@
 
   --button-tertiary-bg-hover: var(--slate-50);
   --button-tertiary-bg-active: var(--slate-100);
-  --button-tertiary-text: var(--text-primary);
+  --button-tertiary-text: var(--eco-text-primary);
   --button-tertiary-disabled-text: var(--slate-400);
 
   --button-destructive-solid-bg-normal: var(--red-700);
