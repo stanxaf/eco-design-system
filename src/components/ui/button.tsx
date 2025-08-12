@@ -53,7 +53,7 @@ const buttonVariants = cva(
 
         // Ghost button - transparent
         ghost: [
-          "bg-transparent text-eco-text-primary",
+          "bg-transparent text-eco-button-ghost-text",
           "hover:bg-eco-button-ghost-bg-hover",
           "active:bg-eco-button-ghost-bg-active",
           "disabled:text-eco-button-ghost-text-disabled",
