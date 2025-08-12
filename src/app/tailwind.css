@@ -241,5 +241,6 @@
   body {
     font-size: var(--text-base);
     line-height: 1.5;
+    color: var(--color-eco-text-primary);
   }
 }
