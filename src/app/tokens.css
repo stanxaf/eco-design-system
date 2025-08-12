@@ -224,7 +224,7 @@
   --accent-foreground: var(--neutral-white);
 
   --destructive: var(--status-error);
-  --destructive-foreground: var(--status-text-error);
+  --destructive-foreground: var(--neutral-white);
 
   --border: var(--border-light);
   --input: var(--border-field);
