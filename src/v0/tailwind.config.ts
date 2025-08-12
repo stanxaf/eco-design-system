@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        foreground: "var(--eco-text-primary)",
 
         card: "var(--card)",
         "card-foreground": "var(--card-foreground)",
