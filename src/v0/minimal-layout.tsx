@@ -3,8 +3,8 @@ import React, { type ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
 
-import "@/tokens.css";
-import "@/globals.css";
+import "@/app/tokens.css";
+import "@/app/globals.css";
 
 const InterSans = Inter({
   subsets: ["latin"],
