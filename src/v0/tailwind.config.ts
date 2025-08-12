@@ -57,6 +57,52 @@ const config: Config = {
           ring: "var(--sidebar-ring)",
         },
 
+        // Button color mappings
+        "eco-button": {
+          "primary-bg-base-light": "var(--button-primary-bg-base-light)",
+          "primary-bg-base-dark": "var(--button-primary-bg-base-dark)",
+          "primary-bg-hover-light": "var(--button-primary-bg-hover-light)",
+          "primary-bg-hover-dark": "var(--button-primary-bg-hover-dark)",
+          "primary-bg-active": "var(--button-primary-bg-active)",
+          "primary-bg-disabled": "var(--button-primary-bg-disabled)",
+          "primary-text-base": "var(--button-primary-text-base)",
+          "primary-text-disabled": "var(--button-primary-text-disabled)",
+
+          "secondary-bg-base-light": "var(--button-secondary-bg-base-light)",
+          "secondary-bg-base-dark": "var(--button-secondary-bg-base-dark)",
+          "secondary-bg-hover-light": "var(--button-secondary-bg-hover-light)",
+          "secondary-bg-hover-dark": "var(--button-secondary-bg-hover-dark)",
+          "secondary-bg-active": "var(--button-secondary-bg-active)",
+          "secondary-bg-disabled": "var(--button-secondary-bg-disabled)",
+          "secondary-text-base": "var(--button-secondary-text-base)",
+          "secondary-text-disabled": "var(--button-secondary-text-disabled)",
+          "secondary-border-base": "var(--button-secondary-border-base)",
+          "secondary-border-disabled": "var(--button-secondary-border-disabled)",
+          "secondary-border-active": "var(--button-secondary-border-active)",
+
+          "ghost-bg-hover": "var(--button-ghost-bg-hover)",
+          "ghost-bg-active": "var(--button-ghost-bg-active)",
+          "ghost-text": "var(--button-ghost-text)",
+          "ghost-text-disabled": "var(--button-ghost-disabled-text)",
+
+          "destructive-solid-bg-normal": "var(--button-destructive-solid-bg-normal)",
+          "destructive-solid-bg-hover": "var(--button-destructive-solid-bg-hover)",
+          "destructive-solid-bg-active": "var(--button-destructive-solid-bg-active)",
+          "destructive-solid-bg-disabled": "var(--button-destructive-solid-bg-disabled)",
+          "destructive-solid-text": "var(--button-destructive-solid-text)",
+          "destructive-solid-text-disabled": "var(--button-destructive-solid-text-disabled)",
+        },
+
+        // Text color mappings
+        "eco-text": {
+          primary: "var(--eco-text-primary)",
+          secondary: "var(--eco-text-secondary)",
+          tertiary: "var(--eco-text-tertiary)",
+          "on-dark": "var(--eco-text-on-dark)",
+          "link-base": "var(--eco-text-link-base)",
+          "link-hover": "var(--eco-text-link-hover)",
+        },
+
         // Custom color ramps
         gray: {
           50: "var(--gray-50)",

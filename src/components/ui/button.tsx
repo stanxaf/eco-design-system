@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const buttonVariants = cva(
   // Base styles - shadcn compatible
   [
-    "h-sm inline-flex items-center justify-center gap-2",
+    "inline-flex items-center justify-center gap-2",
     "whitespace-nowrap rounded-md font-medium",
     "transition-all disabled:pointer-events-none disabled:opacity-50",
     "[&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4",
@@ -93,14 +93,14 @@ const buttonVariants = cva(
         default: [
           "text-sm px-3 py-2",
           "has-[>svg]:px-2 gap-2",
-          "h-md",
+          "h-sm",
         ].join(" "),
 
         // Large - 40px height (using design system token)
         lg: [
           "text-base rounded-md px-3 py-3",
           "has-[>svg]:px-2.5 gap-2",
-          "h-lg]",
+          "h-md",
         ].join(" "),
 
         // Icon only - 36px square
