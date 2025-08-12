@@ -61,7 +61,7 @@ const buttonVariants = cva(
 
         // Destructive button - red solid using design system tokens
         destructive: [
-          "bg-red-500 text-white",
+          "bg-red-500 text-color-eco-text-primary",
           "hover:bg-red-600",
           "active:bg-red-700",
           "disabled:bg-red-200",
