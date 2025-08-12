@@ -21,8 +21,9 @@ export const buttonDocs = {
       {
         title: "Sizes",
         components: [
-          <Button key="sm" size="sm">Small</Button>,
-          <Button key="default">Default</Button>,
+          <Button key="xs" size="xs">Small</Button>,
+          <Button key="sm" size="sm">Medium</Button>,
+          <Button key="default" size="default">Default</Button>,
           <Button key="lg" size="lg">Large</Button>,
           <Button key="icon" size="icon"><Plus /></Button>,
         ]

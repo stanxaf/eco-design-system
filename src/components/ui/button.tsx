@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const buttonVariants = cva(
   // Base styles - shadcn compatible
   [
-    "inline-flex items-center justify-center gap-2",
+    "h-sm inline-flex items-center justify-center gap-2",
     "whitespace-nowrap rounded-md font-medium",
     "transition-all disabled:pointer-events-none disabled:opacity-50",
     "[&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4",
@@ -18,85 +18,89 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        // Primary button - solid with gradient
+        // Primary button - solid with gradient using design system tokens
         default: [
-          "bg-gradient-to-b from-eco-button-primary-bg-base-light to-eco-button-primary-bg-base-dark",
-          "text-eco-button-primary-text-base",
-          "hover:from-eco-button-primary-bg-hover-light hover:to-eco-button-primary-bg-hover-dark",
-          "active:from-eco-button-primary-bg-base-dark active:to-eco-button-primary-bg-base-light",
-          "disabled:from-eco-button-primary-bg-disabled disabled:to-eco-button-primary-bg-disabled",
-          "disabled:text-eco-button-primary-text-disabled",
+          "bg-gradient-to-b from-blue-500 to-blue-600",
+          "text-white",
+          "hover:from-blue-600 hover:to-blue-700",
+          "active:from-blue-800 active:to-blue-900",
+          "disabled:from-blue-200 disabled:to-blue-300",
+          "disabled:text-gray-300",
         ].join(" "),
 
-        // Secondary button - subtle background
+        // Secondary button - subtle background using design system tokens
         secondary: [
-          "bg-gradient-to-b from-eco-button-secondary-bg-base-light to-eco-button-secondary-bg-base-dark",
-          "text-eco-text-primary border border-eco-button-secondary-border-base",
-          "hover:from-eco-button-secondary-bg-hover-light hover:to-eco-button-secondary-bg-hover-dark",
-          "hover:text-eco-button-secondary-text-base",
-          "active:from-eco-button-secondary-bg-hover-dark active:to-eco-button-secondary-bg-hover-light",
-          "disabled:border-eco-button-secondary-border-disabled",
-          "disabled:from-eco-button-secondary-bg-disabled disabled:to-eco-button-secondary-bg-disabled",
-          "disabled:text-eco-button-secondary-text-disabled",
+          "bg-gradient-to-b from-slate-50 to-slate-100",
+          "text-gray-900 border border-slate-300",
+          "hover:from-slate-100 hover:to-slate-200",
+          "hover:text-gray-900",
+          "active:from-slate-200 active:to-slate-100",
+          "disabled:border-slate-200",
+          "disabled:from-white disabled:to-slate-50",
+          "disabled:text-slate-400",
         ].join(" "),
 
-        // Outline button - transparent with border
+        // Outline button - transparent with border using design system tokens
         outline: [
-          "bg-transparent border border-eco-button-secondary-border-base",
-          "text-eco-text-primary",
-          "hover:bg-eco-button-secondary-bg-hover-light hover:border-eco-button-secondary-border-active",
-          "hover:text-eco-button-secondary-text-base",
-          "active:bg-eco-button-secondary-bg-hover-dark",
-          "disabled:border-eco-button-secondary-border-disabled",
-          "disabled:text-eco-button-secondary-text-disabled",
+          "bg-transparent border border-slate-300",
+          "text-gray-900",
+          "hover:bg-slate-50 hover:border-slate-400",
+          "hover:text-gray-900",
+          "active:bg-slate-100",
+          "disabled:border-slate-200",
+          "disabled:text-slate-400",
         ].join(" "),
 
-        // Ghost button - transparent
+        // Ghost button - transparent using design system tokens
         ghost: [
-          "bg-transparent text-eco-button-ghost-text",
-          "hover:bg-eco-button-ghost-bg-hover",
-          "active:bg-eco-button-ghost-bg-active",
-          "disabled:text-eco-button-ghost-text-disabled",
+          "bg-transparent text-gray-900",
+          "hover:bg-slate-50",
+          "active:bg-slate-100",
+          "disabled:text-slate-400",
         ].join(" "),
 
-        // Destructive button - red solid
+        // Destructive button - red solid using design system tokens
         destructive: [
-          "bg-eco-button-destructive-solid-bg-normal text-eco-button-destructive-solid-text",
-          "hover:bg-eco-button-destructive-solid-bg-hover",
-          "active:bg-eco-button-destructive-solid-bg-active",
-          "disabled:bg-eco-button-destructive-solid-bg-disabled",
-          "disabled:text-eco-button-destructive-solid-text-disabled",
+          "bg-red-500 text-white",
+          "hover:bg-red-600",
+          "active:bg-red-700",
+          "disabled:bg-red-200",
+          "disabled:text-red-800",
         ].join(" "),
 
-        // Link button - text only
+        // Link button - text only using design system tokens
         link: [
-          "text-primary underline-offset-4 hover:underline",
+          "text-blue-600 underline-offset-4 hover:underline",
         ].join(" "),
       },
 
       size: {
-        // Extra small - 24px height
+        // Extra small - 24px height (using design system token)
         xs: [
-          "text-xs h-xs px-2 py-1",
+          "text-xs px-2 py-1",
           "has-[>svg]:px-1.5 gap-1",
+          "h-xs",
         ].join(" "),
 
-        // Small - 32px height
+        // Small - 32px height (using design system token)
         sm: [
-          "text-sm h-sm px-2 py-1.5",
+          "text-sm px-2 py-1.5",
           "has-[>svg]:px-1.5 gap-1",
+          "h-sm",
         ].join(" "),
 
-        // Default - 32px height
+        // Default - 32px height (using design system token)
         default: [
-          "text-sm h-sm px-3 py-2",
+          "text-sm px-3 py-2",
           "has-[>svg]:px-2 gap-2",
+          "h-md",
         ].join(" "),
 
-        // Large - 40px height
+        // Large - 40px height (using design system token)
         lg: [
-          "text-base h-md rounded-md px-3 py-3",
+          "text-base rounded-md px-3 py-3",
           "has-[>svg]:px-2.5 gap-2",
+          "h-lg]",
         ].join(" "),
 
         // Icon only - 36px square
@@ -124,10 +128,28 @@ function Button({
   }) {
   const Comp = asChild ? Slot : "button";
 
+  // Apply design system tokens via inline styles for variants that need custom colors
+  const getVariantStyles = () => {
+    if (variant === "default") {
+      return {
+        background: "linear-gradient(to bottom, var(--button-primary-bg-base-light), var(--button-primary-bg-base-dark))",
+        color: "var(--button-primary-text-base)",
+      };
+    }
+    if (variant === "destructive") {
+      return {
+        backgroundColor: "var(--button-destructive-solid-bg-normal)",
+        color: "var(--button-destructive-solid-text)",
+      };
+    }
+    return {};
+  };
+
   return (
     <Comp
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}
+      style={getVariantStyles()}
       {...props}
     />
   );
