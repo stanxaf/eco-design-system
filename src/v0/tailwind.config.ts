@@ -19,20 +19,21 @@ const config: Config = {
         popover: "var(--popover)",
         "popover-foreground": "var(--popover-foreground)",
 
-        primary: "var(--primary)",
-        "primary-foreground": "var(--primary-foreground)",
+        // Commented out to allow component-specific Tailwind classes to work
+        // primary: "var(--primary)",
+        // "primary-foreground": "var(--primary-foreground)",
 
-        secondary: "var(--secondary)",
-        "secondary-foreground": "var(--secondary-foreground)",
+        // secondary: "var(--secondary)",
+        // "secondary-foreground": "var(--secondary-foreground)",
 
-        muted: "var(--muted)",
-        "muted-foreground": "var(--muted-foreground)",
+        // muted: "var(--muted)",
+        // "muted-foreground": "var(--muted-foreground)",
 
-        accent: "var(--accent)",
-        "accent-foreground": "var(--accent-foreground)",
+        // accent: "var(--accent)",
+        // "accent-foreground": "var(--accent-foreground)",
 
-        destructive: "var(--destructive)",
-        "destructive-foreground": "var(--destructive-foreground)",
+        // destructive: "var(--destructive)",
+        // "destructive-foreground": "var(--destructive-foreground)",
 
         border: "var(--border)",
         input: "var(--input)",
