@@ -38,8 +38,7 @@ const buttonVariants = cva(
 
         // Outline button - using v0's expected classes
         outline: [
-          "border border-input bg-background",
-          "text-foreground",
+          "border border-input bg-background text-foreground",
           "hover:bg-accent hover:text-accent-foreground",
           "active:bg-accent/80",
           "disabled:opacity-50",
@@ -47,7 +46,7 @@ const buttonVariants = cva(
 
         // Ghost button - using v0's expected classes
         ghost: [
-          "hover:bg-accent hover:text-accent-foreground",
+          "text-foreground hover:bg-accent hover:text-accent-foreground",
           "active:bg-accent/80",
           "disabled:opacity-50",
         ].join(" "),
@@ -97,7 +96,7 @@ const buttonVariants = cva(
 
         // Icon only - 36px square
         icon: [
-          "size-8",
+          "size-8 text-foreground",
         ].join(" "),
       },
     },
