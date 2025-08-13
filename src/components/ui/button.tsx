@@ -18,54 +18,46 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        // Primary button - solid with gradient using design system tokens
+        // Primary button - using v0's expected classes
         default: [
-          "bg-gradient-to-b from-blue-500 to-blue-600",
-          "text-white",
-          "hover:from-blue-600 hover:to-blue-700",
-          "active:from-blue-800 active:to-blue-900",
-          "disabled:from-blue-200 disabled:to-blue-300",
-          "disabled:text-gray-300",
+          "bg-primary",
+          "text-primary-foreground",
+          "hover:bg-primary/90",
+          "active:bg-primary/80",
+          "disabled:opacity-50",
         ].join(" "),
 
-        // Secondary button - subtle background using design system tokens
+        // Secondary button - using v0's expected classes but with our design tokens
         secondary: [
-          "bg-gradient-to-b from-slate-50 to-slate-100",
-          "text-gray-900 border border-slate-300",
-          "hover:from-slate-100 hover:to-slate-200",
-          "hover:text-gray-900",
-          "active:from-slate-200 active:to-slate-100",
-          "disabled:border-slate-200",
-          "disabled:from-white disabled:to-slate-50",
-          "disabled:text-slate-400",
+          "bg-secondary",
+          "text-secondary-foreground border border-border",
+          "hover:bg-secondary/80",
+          "active:bg-secondary/90",
+          "disabled:opacity-50",
         ].join(" "),
 
-        // Outline button - transparent with border using design system tokens
+        // Outline button - using v0's expected classes
         outline: [
-          "bg-transparent border border-slate-300",
-          "text-gray-900",
-          "hover:bg-slate-50 hover:border-slate-400",
-          "hover:text-gray-900",
-          "active:bg-slate-100",
-          "disabled:border-slate-200",
-          "disabled:text-slate-400",
+          "border border-input bg-background",
+          "text-foreground",
+          "hover:bg-accent hover:text-accent-foreground",
+          "active:bg-accent/80",
+          "disabled:opacity-50",
         ].join(" "),
 
-        // Ghost button - transparent using design system tokens
+        // Ghost button - using v0's expected classes
         ghost: [
-          "bg-transparent text-gray-900",
-          "hover:bg-slate-50",
-          "active:bg-slate-100",
-          "disabled:text-slate-400",
+          "hover:bg-accent hover:text-accent-foreground",
+          "active:bg-accent/80",
+          "disabled:opacity-50",
         ].join(" "),
 
-        // Destructive button - red solid using design system tokens
+        // Destructive button - using v0's expected classes
         destructive: [
-          "bg-red-500 text-white",
-          "hover:bg-red-600",
-          "active:bg-red-700",
-          "disabled:bg-red-200",
-          "disabled:text-red-800",
+          "bg-destructive text-destructive-foreground",
+          "hover:bg-destructive/90",
+          "active:bg-destructive/80",
+          "disabled:opacity-50",
         ].join(" "),
 
         // Link button - text only using design system tokens
@@ -128,28 +120,12 @@ function Button({
   }) {
   const Comp = asChild ? Slot : "button";
 
-  // Apply design system tokens via inline styles for variants that need custom colors
-  const getVariantStyles = () => {
-    if (variant === "default") {
-      return {
-        background: "linear-gradient(to bottom, var(--button-primary-bg-base-light), var(--button-primary-bg-base-dark))",
-        color: "var(--button-primary-text-base)",
-      };
-    }
-    if (variant === "destructive") {
-      return {
-        backgroundColor: "var(--button-destructive-solid-bg-normal)",
-        color: "var(--button-destructive-solid-text)",
-      };
-    }
-    return {};
-  };
+  // No inline styles needed - using v0's expected classes
 
   return (
     <Comp
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}
-      style={getVariantStyles()}
       {...props}
     />
   );
