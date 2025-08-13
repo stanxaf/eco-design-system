@@ -71,33 +71,33 @@ const buttonVariants = cva(
         xs: [
           "text-xs px-2 py-1",
           "has-[>svg]:px-1.5 gap-1",
-          "h-xs",
+          "h-6",
         ].join(" "),
 
         // Small - 32px height (using design system token)
         sm: [
           "text-sm px-2 py-1.5",
           "has-[>svg]:px-1.5 gap-1",
-          "h-sm",
+          "h-8",
         ].join(" "),
 
         // Default - 32px height (using design system token)
         default: [
           "text-sm px-3 py-2",
           "has-[>svg]:px-2 gap-2",
-          "h-sm",
+          "h-8",
         ].join(" "),
 
         // Large - 40px height (using design system token)
         lg: [
           "text-base rounded-md px-3 py-3",
           "has-[>svg]:px-2.5 gap-2",
-          "h-md",
+          "h-10",
         ].join(" "),
 
         // Icon only - 36px square
         icon: [
-          "size-9",
+          "size-8",
         ].join(" "),
       },
     },
