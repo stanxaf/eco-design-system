@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    font-size: var(--text-base);
+    line-height: 1.5;
+    color: var(--color-eco-text-primary);
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

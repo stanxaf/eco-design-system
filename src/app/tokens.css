@@ -120,7 +120,7 @@
   --bg-fields-dark: var(--bg-component-light);
   --bg-fields-error: var(--red-50);
 
-  --button-primary-bg-base-light: var(--blue-500);
+  /* --button-primary-bg-base-light: var(--blue-500);
   --button-primary-bg-base-dark: var(--utility-blue);
   --button-primary-bg-hover-light: var(--blue-500);
   --button-primary-bg-hover-dark: var(--blue-600);
@@ -161,7 +161,7 @@
   --button-destructive-ghost-text-disabled: var(--red-200);
   --button-destructive-ghost-border-normal: var(--red-200);
   --button-destructive-ghost-border-hover: var(--red-300);
-  --button-destructive-ghost-border-active: var(--red-400);
+  --button-destructive-ghost-border-active: var(--red-400); */
 
   /* Status & Field Tokens */
   --status-success: var(--green-800);
