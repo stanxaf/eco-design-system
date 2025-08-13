@@ -61,9 +61,9 @@ export const inputDocs = {
       {
         title: "Sizes",
         components: [
-          <Input key="sm" placeholder="Small input" className="h-xs px-2 py-1 text-xs" />,
+          <Input key="sm" placeholder="Small input" className="h-6 px-2 py-1 text-xs" />,
           <Input key="default" placeholder="Default input" />,
-          <Input key="lg" placeholder="Large input" className="h-md px-3 py-2 text-base" />,
+          <Input key="lg" placeholder="Large input" className="h-8 px-3 py-2 text-base" />,
         ]
       },
       {
@@ -125,8 +125,8 @@ export const inputDocs = {
     ],
     sizes: [
       { name: "default", description: "Standard input height (32px)" },
-      { name: "small", description: "Smaller input height (24px) - use h-xs class" },
-      { name: "large", description: "Larger input height (40px) - use h-md class" },
+      { name: "small", description: "Smaller input height (24px) - use h-6 class" },
+      { name: "large", description: "Larger input height (40px) - use h-8 class" },
     ]
   },
 

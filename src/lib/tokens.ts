@@ -37,11 +37,6 @@ export const tokens = {
     input: "var(--input)",
     ring: "var(--ring)"
   },
-  spacing: {
-    xs: "var(--height-xs)",
-    sm: "var(--height-sm)",
-    md: "var(--height-md)"
-  },
   typography: {
     xs: "var(--text-xs)",
     sm: "var(--text-sm)",

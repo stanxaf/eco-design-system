@@ -224,11 +224,6 @@ const config: Config = {
       animation: {
         "fade-in-scale": "fade-in-scale 0.3s ease-out",
       },
-      height: {
-        xs: 'var(--height-xs)',
-        sm: 'var(--height-sm)',
-        md: 'var(--height-md)',
-      },
     },
   },
   plugins: [require("tailwindcss-animate")],

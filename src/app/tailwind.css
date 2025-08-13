@@ -165,11 +165,6 @@
   --font-family-serif: var(--font-serif);
   --font-family-mono: var(--font-mono);
 
-  /* Height Tokens */
-  --height-xs: 1.5rem;     /* 24px */
-  --height-sm: 2rem;       /* 32px */
-  --height-md: 2.5rem;     /* 40px */
-
   /* Eco Button Colors */
   --color-eco-button-primary-bg-base-light: var(--button-primary-bg-base-light);
   --color-eco-button-primary-bg-base-dark: var(--button-primary-bg-base-dark);
